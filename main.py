@@ -22,7 +22,7 @@ class CurrencyConverter:
             print("Invalid currency entered or failed to update exchange rates from the API.")
 
 
-url = 'http://data.fixer.io/api/latest?access_key=a7faee89fbb10b1cb5c54fa001d77abb'
+url = 'http://data.fixer.io/api/latest?access_key=YOUR_API_KEY'
 
 c = CurrencyConverter(url)
 
